@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin:2px;
+padding:3px;
+box-sizing:boder-box;
+}
+
+body{
+font-family:arial;sans-serif;
+background-color:#f0f4f8;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+form{
+display:flex;
+flex-direction:column;
+}
+
+label{
+color:#555;
+font=size:14px;
+font-weight:bold;
+margin=bottom:5px;
+display:block;
+}
+input,selcet,button{
+width:100%;
+padding:10px;
+border:1px;
+}
+button{
+bacground-color:#4CAF50;
+color:white;
+border:none;
+cursor:pointer;
+font-size:16px;
+font-weight:bold;
+padding:12px;
+}
+
+button:hover{
+background-color:#35b088;
+}
+</style>
+
+
+
+
+</head>
+<body>
+
+
+<h>Form <h>
+<form action ="/action_page.php">
+<label for ="fame">First name:<label><br></br>
+
+<input type="checkbox" id="html" name="fav_language" value="html">
+<label for ="html">NAMASTE</label><br>
+<input type="checkbox" id="css" name="fav_language" value="css">
+<label for ="html">ABQ</label><br>
+<input type="checkbox" id="javascript" name="fav_language" value="javascript">
+<label for ="html">New Mexico</label><br></br>
+
+
+
+
+<input type="radio" id="Vehicle1" name="Vehicle1" value="Bike">
+<label for ="Vehicle1">I dont have a bike</label><br>
+<input type="radio" id="css" name="fav_language" value="car">
+<label for ="Vehicle2">I dont have a car</label><br>
+<input type="radio" id="Vehicle3" name="Vehicle3" value="Boat">
+<label for ="vehicle3">I dont have a boat</label><br></br>
+
+
+
+
+
+
+<label for ="cars">Choose  a car: </label>
+<select id="cars" name="cars" size="3" multiple>
+<option value="nano">2 nd hand nano</option>
+<option value="nano">nano</option>
+<option value="nano">Omni</option>
+<option value="nano">2 nd hand Omni</option>
+</select>
+
+<form>
+<label for="username" >Username:</label><br>
+<input type="text" ="username" name="username"></br>
+<label for="pwd">Password</label><br>
+<input type="password" id="pwd" name="pwd">
+<input type="password" id="password" name="password"><br>
+<input type ="submit" value ="submit">
+</form>
+
+
+
+<h2>Show a color picker</h2>
+<p>the <strong>input type="color"</strong> is used for fields that should contain color </p>
+<label for ="birthday">birthday:</label>
+<input type="date" id="birthday" name="birthday">
+ 
+<form>
+<label for="email">Enter your email:</label>
+<input type ="mail" id="email"name="email"><br>
+<input type ="submit" value ="submit">
+</form><br>
+
+
+<form>
+<label for="quantity">Quantity(between 1 and 5):</label>
+<input type ="number" id="quantity" name="quantity" min="1" max="150">
+</form>
+<br></br><br></br>
+<input type="text" id=fname" name="fname" value="empty "><br></br>
+<label for="Iname">Last name:</label><br>
+<input type="text" id=Iname" name="Iname" value="empty"><br></br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
